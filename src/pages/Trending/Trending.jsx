@@ -1,6 +1,7 @@
 import MovieList from "../../components/MovieList/MovieList";
 import { fetchMovies } from "../../services/api";
 import { useEffect, useState } from "react";
+import css from "./Trending.module.css";
 
 const Trending = () => {
   const [movies, setMovies] = useState([]);
@@ -19,10 +20,10 @@ const Trending = () => {
   }, []);
 
   return (
-    <>
+    <div className={css.trending}>
       <h2>Trending today</h2>
       <MovieList movies={movies} navigate="movies/" />
-    </>
+    </div>
   );
 };
 
