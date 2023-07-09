@@ -1,0 +1,33 @@
+.goBackButton {
+  margin-bottom: 10px;
+}
+
+.movieDetailsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.movieInfo {
+  margin-left: 20px;
+}
+
+.genresContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.additionalInfoList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.additionalInfoLink {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.loadingMessage {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}

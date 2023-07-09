@@ -1,0 +1,21 @@
+.header {
+  background-color: #fca311;
+  padding: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navLink {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navLinkActive {
+  color: #ffffff;
+  text-decoration: underline;
+}

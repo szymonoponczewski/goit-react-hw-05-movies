@@ -1,0 +1,21 @@
+.reviewsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reviewsListItem {
+  margin-bottom: 20px;
+}
+
+.reviewsListItem p {
+  margin: 0;
+}
+
+.reviewsListItemAuthor {
+  font-weight: bold;
+}
+
+.reviewsListItemContent {
+  margin-top: 5px;
+}
